@@ -6,6 +6,7 @@ void main(List<String> arguments) {
 
 bool detectCapitalUse(String word) {
   int lengthOf = word.length;
+  bool isFirstCaps = false;
   bool firstTime = true;
 
   int counter1 = 0;
